@@ -18,3 +18,6 @@ Revision history for Perl extension HTTP::UA::Parser.
 	- Even more tests
 	- Fixing 0 and undef issue with UA parser
 	- Adding makeParser functions
+	
+0.005 Thu Jun 6 2013
+	- Remove YAML::Tiny

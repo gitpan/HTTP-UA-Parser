@@ -9,6 +9,7 @@ eval {
     require($Bin . '/utils.pl');
     my $yaml = get_test_yaml($source);
     my $r = HTTP::UA::Parser->new();
+    
     foreach my $st (@{$yaml}){
         
         next if $st->{js_ua};

@@ -1,7 +1,6 @@
 use HTTP::UA::Parser;
 use strict;
 use Test::More;
-
 my $UA = 'HTTP::UA::Parser::UA';
 
 is($UA->new()->toString(), 'Other');
